@@ -1,0 +1,102 @@
+.collection{
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Esteban", serif;
+    font-size: 60px;
+    
+
+
+}
+.mens-photo{
+    width: 500px;
+    height:400px;
+     margin-left:40px;
+    border-radius: 20px;
+    box-shadow: -1px 2px 5px rgba(0, 0, 0, 0.5);
+    
+}
+.mens-collection-text{
+    color:black;
+    font-weight: bolder;
+    font-size:35px;
+   font-family:"Esteban", serif;
+}
+.men{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns:600px 2fr  ;
+    width: 1300px;
+    margin-bottom: 50px;
+    
+    
+}
+
+.men-second-paragraph{
+    font-size: 25px;
+}
+.women{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns:2fr 1fr  ;
+    width: 1400px;
+    
+ 
+}
+.women-text{
+    color: black;
+    font-size: 35px;
+    font-family: "Esteban", serif;
+    font-weight: bolder;
+    
+}
+.women-collection-text{
+    text-align: end;
+    margin-right: 40px;
+
+}
+.women-second-paragraph{
+    font-size:25px;
+}
+.women-collection-text button,
+.men-button
+  {
+    padding: 14px 30px 14px  30px;
+    background-color: rgb(236, 67, 16);
+    border-style: none;
+    border-radius: 20px;
+    color: white;
+    transition: 0.15s ; 
+}
+
+.women-collection-text button:hover{
+   /* position: relative;
+   left: 10px; */
+   transform: translateX(-10px);
+   
+
+}
+.men-button:hover{
+    transform: translateX(-10px);
+}
+.catergory{
+    text-align: center;
+    margin-top: 100px;
+    font-family:"Esteban", serif;
+}
+.catergory p{
+    font-size: 25px;
+}
+.catergory button{
+    padding:13px 25px 13px 25px;
+    background-color: white;
+    border-style: none;
+    transition: 0.13s;
+    font-size: 15px;
+    
+    
+}
+.catergory button:hover{
+    opacity: 0.5;
+
+}

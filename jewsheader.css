@@ -1,0 +1,158 @@
+.body{
+    margin-top: 0px;
+    
+}
+.jewsheader{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    margin-top: 0px;
+    padding: 40px;
+    padding-bottom:10px ;
+
+    right: 0;
+    top: 0;
+    left: 0;
+    align-items:center;
+    min-width: 700px;
+
+    
+    
+    
+    
+    
+    
+}
+
+.header-collections{
+    display: flex;
+    
+    background-color: black;
+    color: white;
+    font-family: "Esteban", serif;
+    justify-content: space-between
+
+    
+
+
+    
+    
+    
+
+    
+    
+    
+    
+}
+.header-collections div{
+    margin-right: 10px;
+}
+
+  
+
+    
+    
+    
+
+.svg{
+    display: flex;
+    color: rgb(215, 211, 211);
+}
+.lastsvg{
+    position: relative;
+}
+.svgnumber{
+    position: absolute;
+    right:-16px;
+    top:5px;
+    background-color: rgb(215, 211, 211);
+    color: black;
+    padding-right:5px ;
+    padding-left: 5px;
+    border-radius: 30px;
+    padding-top: 1px;
+    font-family: 
+}
+.headerphoto{
+   height: 500px;
+   width:1200px;
+   border-radius: 20px;
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    
+    
+    
+   
+}
+@media( max-width:1300px){
+
+    .headerphoto{
+        width: 1150px;
+    }
+}
+@media (max-width:1200px){
+    .headerphoto{
+        width:1100px
+    }
+}
+@media (max-width:1150px){
+    .headerphoto{
+        width:1000px
+    }
+}
+.location{
+   color:  rgb(215, 2, 2);  
+   margin-right:0;
+   display: flex;
+   
+    align-items: center;
+   
+}
+.name{
+  color:  rgb(215, 211, 211) ;
+  font-family: "Esteban", serif;
+  
+  font-size :50px;
+  
+}
+.firstsvg{
+    position: relative;
+    
+}
+.our-loca{
+    position: absolute;
+    top:62px;
+    left:65px;
+    display: flex;
+    
+    
+
+}
+.firstimagecontainer{
+display:flex;
+justify-content: center;
+position: relative;
+z-index: 1;
+padding-top: 120px;
+}
+
+.firstpics-text{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    z-index:1px;
+    top:50%;
+    font-family: "Esteban", serif;
+    font-weight: 600;
+    font-size:50px;
+
+    
+    
+}
+.jews{
+    position: fixed;
+    right: 0px;
+    left:0px;
+    z-index: 2;
+}
+ 
+
