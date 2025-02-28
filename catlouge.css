@@ -1,0 +1,27 @@
+.image-catlogue{
+    display:grid;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+    
+    justify-content: center;
+
+    font-family: "Esteban", serif;
+    text-align: center;
+     font-weight: bold;
+    
+    
+    
+}
+.image-catlogue img {
+    width: 240px;
+    border-radius: 20px;
+    transition: 0.2s;
+    
+    
+
+    
+    
+}
+.image-catlogue img:hover{
+    opacity: 0.9 !important;
+}
+

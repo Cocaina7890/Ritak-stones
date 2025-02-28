@@ -75,7 +75,7 @@
     font-family: 
 }
 .headerphoto{
-   height: 500px;
+   height: 700px;
    width:1200px;
    border-radius: 20px;
    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
@@ -132,8 +132,8 @@
 display:flex;
 justify-content: center;
 position: relative;
-z-index: 1;
-padding-top: 120px;
+z-index: 0;
+padding-top: px;
 }
 
 .firstpics-text{
@@ -153,6 +153,12 @@ padding-top: 120px;
     right: 0px;
     left:0px;
     z-index: 2;
+}
+.btt{
+    background-color: black;
+}
+.btt:hover{
+    background-color: white;
 }
  
 
